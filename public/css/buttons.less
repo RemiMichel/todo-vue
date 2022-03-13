@@ -1,0 +1,93 @@
+@import "colors";
+
+.btn {
+  font-size: large;
+}
+.rounded-btn{
+  border-radius: 50%;
+}
+.rounded-btn:hover{
+  outline: #FFFFFF 1px solid;
+  box-shadow: #FFFFFF 0 0 8px 2px;
+}
+
+.btn-main{
+  min-width: 40px;
+  background-color: @color-main;
+  color: @color-light;
+}
+.btn-main:hover{
+  background-color: @color-main-dark;
+  color: @color-light;
+  outline: @color-light 1px solid;
+  box-shadow: @color-light 0 0 8px 2px;
+}
+.btn-main:hover>i{
+  color: @color-light;
+}
+
+.btn-second{
+  min-width: 40px;
+  background-color: @color-secondary;
+  color: @color-main-dark;
+}
+.btn-second:hover{
+  background-color: @color-secondary-dark;
+  color: @color-light;
+  outline: @color-light 1px solid;
+  box-shadow: @color-light 0 0 8px 2px;
+}
+
+.btn-main-danger{
+  min-width: 40px;
+  background-color: @color-3;
+  color: @color-light;
+}
+.btn-main-danger:hover{
+  background-color: @color-3;
+  color: @color-light;
+  outline: @color-light 1px solid;
+  box-shadow: @color-light 0 0 8px 2px;
+}
+
+
+
+
+.btn-outline-main{
+  min-width: 40px;
+  border: @color-main 1px solid;
+  background: none;
+  color: @color-main;
+}
+.btn-outline-main:hover{
+  background-color: @color-main;
+  color: @color-light;
+  outline: @color-light 1px solid;
+  box-shadow: @color-light 0 0 8px 2px;
+}
+
+.btn-outline-second{
+  min-width: 40px;
+  border: @color-secondary-dark 1px solid;
+  background: none;
+  color: @color-secondary-dark;
+}
+.btn-outline-second:hover{
+  background-color: @color-secondary-dark;
+  color: @color-light;
+  outline: @color-light 1px solid;
+  box-shadow: @color-light 0 0 8px 2px;
+}
+
+.btn-outline-main-danger{
+  min-width: 40px;
+  border: @color-3 1px solid;
+  background: none;
+  color: @color-3;
+}
+.btn-outline-main-danger:hover{
+  background-color: @color-3;
+  color: @color-light;
+  outline: @color-light 1px solid;
+  box-shadow: @color-light 0 0 8px 2px;
+}

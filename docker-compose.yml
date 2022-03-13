@@ -1,0 +1,16 @@
+services:
+  todo-vue:
+    container_name: todo-vue
+    build: "./docker/nodejs"
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "8080:8080"
+
+networks:
+  default:
+    external:
+      name: todo_network

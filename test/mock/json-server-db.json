@@ -1,0 +1,64 @@
+{
+  "todos": [
+    {
+      "id": 0,
+      "label": "Todo 1",
+      "status": 1
+    },
+    {
+      "id": 1,
+      "label": "Todo 2",
+      "status": 1
+    },
+    {
+      "id": 2,
+      "label": "Todo 3",
+      "status": 0
+    },
+    {
+      "id": 3,
+      "label": "Todo 4",
+      "status": 1
+    },
+    {
+      "id": 4,
+      "label": "Todo 5",
+      "status": 1
+    }
+  ],
+  "todos_list_todo": [
+    {
+      "todo_id": 1,
+      "todo_list_id": 0
+    },
+    {
+      "todo_id": 1,
+      "todo_list_id": 1
+    },
+    {
+      "todo_id": 2,
+      "todo_list_id": 0
+    },
+    {
+      "todo_id": 3,
+      "todo_list_id": 2
+    }
+  ],
+  "todos_list": [
+    {
+      "id": 0,
+      "label": "tag",
+      "status": 0
+    },
+    {
+      "id": 1,
+      "label": "deleted tag",
+      "status": 1
+    },
+    {
+      "id": 2,
+      "label": "un autre tag",
+      "status": 0
+    }
+  ]
+}
