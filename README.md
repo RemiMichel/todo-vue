@@ -2,7 +2,6 @@
 Vuejs application using todo-api project.  
 ## Project setup
 ### Docker
-#### /!\ You must set up todo-api project before!
 just run docker compose command as usual
 ```
 docker-compose -f ./docker-compose.yml up -d --build
