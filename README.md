@@ -7,6 +7,14 @@ just run docker compose command as usual
 ```
 docker-compose -f ./docker-compose.yml up -d --build
 ```
+and export flask variable into todo api container
+```
+export FLASK_APP=/app/main.py
+```
+then execute migration
+```
+flask db upgrade
+```
 ### Without Docker
 copy ./docker/nodejs/package.json to project folder
 ```
