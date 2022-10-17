@@ -10,7 +10,10 @@ services:
     ports:
       - "8080:8080"
 
-networks:
-  default:
-    external:
-      name: todo_network
+  todo-api:
+    container_name: todo-vue-api
+    working_dir: /app
+    image: "ghcr.io/remimichel/todo-api:v0.0.1"
+    command: python main.py
+    ports:
+      - "5000:5000"
